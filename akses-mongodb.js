@@ -22,24 +22,3 @@ db.employees.update({name : "adi irawan"}, {$set: {address: "bantul"}}, function
   else console.log("Data '105410121' berhasil diperbaharui");
 });
 
-// Hasil:
-//{ _id: 50c74b79a7f83cba11e6b220,
-//  name: 'Aditya',
-//  address: 'Kalasan',
-//  phone: '08787878787' }
-//Data pegawai 'Bambang' tersimpan
-//Data 'Ahmad' berhasil diperbaharui
-//
-// Hasil di db:
-//> db.employees.find()
-//{ "_id" : ObjectId("50c74b63a7f83cba11e6b21e"), "name" : 
-//"Zaky", "address" : "Griya Purwa Asri" }
-//{ "_id" : ObjectId("50c74b6da7f83cba11e6b21f"), "address" :
-//"Finlandia", "email" : "zakyahmadaditya@gmail.com", "name" : "Ahmad" }
-//{ "_id" : ObjectId("50c74b79a7f83cba11e6b220"), "name" :
-//"Aditya", "address" : "Kalasan", "phone" : "08787878787" }
-//{ "name" : "Bambang", "address" : "Yogyakarta", "password" : 
-//"ealhadalah", "sex" : "male", "_id" : 
-//ObjectId("50c75d43c111384846000001") }
-//> 
-//  
